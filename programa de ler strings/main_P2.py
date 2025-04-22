@@ -1,6 +1,5 @@
 def transformar_string(texto):
     # Verifica se o texto contém apenas números -> achei relevante colocar isso aqui.
-    # Verifica se o texto contém apenas números
     if texto.isdigit():
         print()
         raise ValueError("Erro: A escrita contém apenas números, não é permitido.")
