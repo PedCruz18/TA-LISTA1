@@ -2,6 +2,13 @@ from funcoes import soma, multiplica, duplicados, impares, pares, primos
 
 def main():
     numeros = []
+    
+    print("""
+    Bem Vindos ao programa de resultados.
+    ------------------------------------
+    By PedCruz.
+    """)
+
     print("\nDigite números inteiros (0 para continuar):")
     
     while True:

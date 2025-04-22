@@ -25,9 +25,14 @@ def transformar_string(texto):
     return " ".join(resultado)
 
 # Lendo a entrada do usuário
-print()
-entrada = input("Digite uma frase: ")
 
+print("""
+Bem Vindos ao programa de ler strings.
+------------------------------------
+By PedCruz.
+""")
+
+entrada = input("Digite uma frase: ")
 
 try:
     # Transformando a string

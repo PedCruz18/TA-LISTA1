@@ -1,7 +1,13 @@
 from funcoes_T2 import pega_inteiro
 
 def main():
-    print()
+    
+    print("""
+    Bem Vindos ao programa de verificação.
+    ------------------------------------
+    By PedCruz.
+    """)
+
     numero = pega_inteiro(
         mensagem="Informe um número entre 10 e 100: ",
         mensagem_erro="Entrada inválida. Digite um número inteiro!",

@@ -8,7 +8,12 @@ def transformar_string(texto):
     return texto.title()
 
 # Lendo a entrada do usuário
-print()
+print("""
+Bem Vindos ao programa de ler strings.
+------------------------------------
+By PedCruz.
+""")
+
 entrada = input("Digite uma frase: ")
 
 try:

@@ -2,6 +2,13 @@ def pilha_banco():
     pilha = []  # A pilha funciona como LIFO: o último elemento inserido é o primeiro a ser retirado.
 
     while True:
+
+        print("""
+        Bem Vindos ao programa de gerenciar clientes.
+        ------------------------------------
+        By PedCruz.
+        """)
+
         print("\n=== Menu ===")
         # Exibindo a pilha atual (os clientes que estão na pilha).
         print("1 - Adicionar cliente [Clientes na pilha: {}]".format(", ".join(pilha) if pilha else "nenhum cliente."))

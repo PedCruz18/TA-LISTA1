@@ -2,6 +2,13 @@ def fila_banco():
     fila = []  # Usando uma lista comum/fila FIFO
 
     while True:
+
+        print("""
+        Bem Vindos ao programa de gerenciar clientes.
+        ------------------------------------
+        By PedCruz.
+        """)
+
         print("\n=== Menu ===")
         # Exibe a lista de clientes na fila
         print("1 - Adicionar cliente [Clientes na fila: {}]".format(", ".join(fila) if fila else "nenhum cliente."))

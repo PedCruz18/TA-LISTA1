@@ -37,6 +37,14 @@ def ler_numeros(numeros=None):
 
 
 def main():
+
+    print("""
+    Bem Vindos ao programa de resultados.
+    ------------------------------------
+    By PedCruz.
+    """)
+
+
     print("\nDigite números inteiros (0 para continuar):")
     numeros = ler_numeros()
 

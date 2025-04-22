@@ -1,7 +1,13 @@
 from funcoes_T import entrada_inteiro
 
 def main():
-    print()
+
+    print("""
+    Bem Vindos ao programa de verificação.
+    ------------------------------------
+    By PedCruz.
+    """)
+
     numero = entrada_inteiro(
         mensagem="Por favor, informe um número inteiro: ",
         mensagem_erro="Valor inválido. Por favor, informe um número inteiro válido!"
